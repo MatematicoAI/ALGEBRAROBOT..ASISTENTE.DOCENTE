@@ -19,23 +19,15 @@
         window.voiceflow.chat.load({
           verify: { projectID: '67b28507d7ad2f8adf978004' },
           url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production', 
-          voice: { 
-            url: "https://runtime-api.voiceflow.com" 
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
           }
         });
       }
       v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
 </script>
-      // Función para mantener la pestaña activa
-      function keepAlive() {
-        console.log("Manteniendo la pestaña activa: " + new Date().toLocaleTimeString());
-      }
-
-      // Ejecutar la función cada 5 minutos (300,000 milisegundos)
-      setInterval(keepAlive, 300000);
-    </script>
 </body>
 </html>
 
